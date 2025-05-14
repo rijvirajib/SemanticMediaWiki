@@ -1,6 +1,6 @@
 ## Register new datatype
 
-This example shows how to register a new dataType/dataValue in Semantic MediaWiki and the convention for the datatype key is to use `___` as leading identifer to distinguish them from those defined by Semantic MediaWiki itself.
+This example shows how to register a new dataType/dataValue in Semantic MediaWiki and the convention for the datatype key is to use `___` as leading identifer to distinguish them from those defined by Semantic MediaWiki itself. A matching new Property may also need to be created, see SMW::Property::initProperties. TYPE_ID should be unique - it cannot match any other Datatype ID or a Property ID.
 
 ### SMW::DataType::initTypes
 
